@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:900|Josefin+Sans:300|Oxygen:300|Pompiere');
-@import url('https://fonts.googleapis.com/css?family=Lato:300|Alegreya|Londrina+Sketch|Dosis|Acme|Dokdo|East+Sea+Dokdo|Lora:700|Oxygen:300|Playfair+Display:900|Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300|Lato:300|Alegreya|Londrina+Sketch|Dosis|Acme|Dokdo|East+Sea+Dokdo|Lora:700|Oxygen:300|Playfair+Display:900|Yanone+Kaffeesatz');
 
 
 html, body {
@@ -166,8 +166,11 @@ nav.black ul {
 }
 
 #main-box-text {
-  background: radial-gradient(circle at 30% 107%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-  min-height: 1080px;
+  background: linear-gradient(312deg, #292b2d, #4178e8, #feffd9);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 25s ease infinite;
+  -moz-animation: AnimationName 25s ease infinite;
+  animation: AnimationName 25s ease infinite;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -184,6 +187,23 @@ nav.black ul {
   padding-top: 350px;
   filter: drop-shadow(0px 0px 5px);
 }
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 14%}
+    50%{background-position:100% 87%}
+    100%{background-position:0% 14%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 14%}
+    50%{background-position:100% 87%}
+    100%{background-position:0% 14%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 14%}
+    50%{background-position:100% 87%}
+    100%{background-position:0% 14%}
+}
+
 
 h1 {
   letter-spacing: 8px;
@@ -218,17 +238,17 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    min-height: 1080px;
 }
 
 .video-section {
     opacity: 100%;
-    padding: 50px 10px;
-    filter: drop-shadow(0px 0px 30px white);
-    /* max-width: 1920px;
-    max-height: 1080px;
+    margin: 0px 0px 0px 0px;
+    padding: 30px 30px;
+    filter: drop-shadow(0px 0px 30px black);
+    / max-width: 1920px;
+    amx-height: 1080px;
     */
-    transform: scale(0.8);
+    transform: scale(1);
     transition: 1s;
 }
 
@@ -240,12 +260,12 @@ h1 {
 
 .photo {
   position: relative;
-  top: 300px;
+  top: 270px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center; right: 230px;
+  text-align: center; right: 280px;
   z-index: auto;
 }
 
@@ -259,21 +279,22 @@ img {
 
 p {
 border-radius: 5px;
-border-spacing: 15px 15px;
+border-spacing: 20px 20px;
 background: #faf4e7;
-padding-left: 200px;
-font-family: 'Pompiere',cursive;
-font-size: 20px;
+padding-left: 300px;
+letter-spacing: 0px;
+font-size: 23px;
+font-family: 'Quicksand',cursive;
 color: #212529;
-font-weight: bolder;
 position: relative;
 display: table;
 margin-left: auto;
 margin-right: auto;
-text-align: left;
-width: 630px; /* whatever width you want */
-left: 100px;
-bottom: 129px;
+text-align: justify;
+width: 862px;
+left: 80px;
+bottom: 179px;
+line-height: 27px;
 }
 
 
@@ -331,6 +352,7 @@ bottom: 129px;
 
 .navbar.black {
   display: flex;
+  margin-left: 10px;
   transition: 2s;
 }
 .navbar {
