@@ -149,7 +149,6 @@ nav.black ul {
   padding-top: 330px;
   filter: drop-shadow(0px 0px 5px);
   min-height: 1080px;
-  border-bottom: .1px solid #FAF4E6;
 }
 
 @-webkit-keyframes AnimationName {
@@ -201,8 +200,6 @@ h1 {
   filter: drop-shadow(0px 0px 10px);
   margin: 10px 0px 0px 0px;
   color: #212529;
-  border-top: .1px solid #FAF4E6;
-  border-bottom: .1px solid #FAF4E6;
 }
 
 /* ---------------- VIDEO SECTION ------------------ */
@@ -282,6 +279,7 @@ p {
 #portfolio-box {
   background-image: url('https://images.pexels.com/photos/593322/pexels-photo-593322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
   min-height: 1080px;
+  margin: -5px 0px 0px 0px;
 
 }
 
@@ -290,13 +288,10 @@ p {
   grid-template-columns: repeat(4,auto);
   grid-gap: 1rem;
   padding: 1rem;
-  margin: 90px 90px 30px 90px;
-  filter: drop-shadow(0px 0px 10px black);
 }
 
 .figure-img {
   width: 100%;
-  margin-bottom: -10px;
 }
 /* ---------------- DIVIDERS ------------------ */
 
@@ -555,21 +550,49 @@ p {
   }
 
   .photo {
-    transform: scale(.3);
-    left: -130px
+    position: relative;
+    top: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:
+    text-align: center; right: 10px;
+    z-index: auto;
+  }
+
+  img {
+    z-index: 1;
+    padding: -1rem;
+    border-top: 0.6rem solid;
+    border-right: 0.6rem solid;
+    border-bottom: 0.6rem solid;
+    border-left: 0.6rem solid;
+    filter: brightness(100%) saturate(100%) contrast(90%) drop-shadow(0px 0px 0px #212529);
+    transform: scale(.5);
   }
 
   p {
     transform: scale(.5);
-      left: -220px
+    border-spacing: 20px 20px;
+    background: #faf4e7;
+    padding-left: -100px;
+    letter-spacing: 0px;
+    font-size: 23px;
+    font-family: 'Quicksand',cursive;
+    color: #212529;
+    position: relative;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 862px;
+    left: 0px;
+    bottom: 179px;
+    line-height: 27px;
+    outline-offset: 0rem;
+    border-top: 0.6rem solid;
+    border-right: 0.6rem solid;
+    border-bottom: 0.6rem solid;
+    border-left: 0.6rem solid;
   }
-
-  .gallery-container {
-    display: grid;
-    grid-template-columns: repeat(1,auto);
-    grid-gap: 1rem;
-    padding: 1rem;
-    margin: 90px 90px 50px 90px;
-  }
-
 }
