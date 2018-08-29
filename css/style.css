@@ -332,7 +332,7 @@ p:hover {
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 0px;
   filter: drop-shadow(0px 0px 10px black);
-  margin: 90px 90px 90px 90px;
+  margin: 120px 120px 120px 120px;
   outline: 1px solid #fff;
 }
 
