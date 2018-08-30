@@ -322,7 +322,6 @@ p:hover {
 
 #portfolio-box {
   background-image: url('https://images.pexels.com/photos/593322/pexels-photo-593322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-  min-height:
 }
 
 .gallery-container {
@@ -732,10 +731,27 @@ p:hover {
 
   .gallery-container {
     display: grid;
-    grid-template-columns: repeat(1,auto);
-    grid-gap: 1rem;
-    padding: 1rem;
-    margin: 90px 90px 50px 90px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    margin: 90px 0px 10px 0px;
+    outline: none;
   }
+
+  .figure-img {
+    margin: 10px 10px 0px 10px;
+    grid-row: span 1;
+    grid-column: span 1;
+    min-height: 50vh;
+    min-width: 0vh;
+    background-color: #FAF4E6;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -0.2px;
+    overflow: hidden;
+  }
+
+#portfolio-box {
+
+}
 
 }
