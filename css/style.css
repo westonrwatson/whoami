@@ -596,7 +596,7 @@ h2 {
 
 /* ---------------- RESIZE ------------------ */
 
-@media(max-width: 1400px) {
+@media(max-width: 1500px) {
   nav ul li a {
     font-size: 35px;
     transition: 0.5s;
