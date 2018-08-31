@@ -406,6 +406,16 @@ h2 {
 
 }
 
+.figure4 > h2 {
+  opacity: 0;
+  font-size: 33px;
+}
+
+.figure4:hover > h2 {
+  opacity: 1;
+  font-size: 33px;
+}
+
 .figure5 {
   grid-row: span 2;
   grid-column: span 2;
@@ -413,6 +423,16 @@ h2 {
   background-size: cover;
   background-position: top;
 
+}
+
+.figure5 > h2 {
+  opacity: 0;
+  font-size: 39px;
+}
+
+.figure5:hover > h2 {
+  opacity: 1;
+  font-size: 39px;
 }
 
 .figure6 {
