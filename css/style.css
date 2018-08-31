@@ -765,6 +765,10 @@ h2 {
     transition: 1s;
     }
 
+   .box-text {
+    transform: scale(0.8);
+   }
+
   .menu-icon {
     display: block;
   }
@@ -799,9 +803,5 @@ h2 {
     margin-bottom: -0.2px;
     overflow: hidden;
   }
-
-#portfolio-box {
-
-}
 
 }
