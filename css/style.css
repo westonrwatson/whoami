@@ -134,13 +134,23 @@ nav.black ul {
 
 /* ---------------- FRONT PAGE ------------------ */
 
-#main-box-text {
-  background: linear-gradient(312deg, #292b2d, #4178e8, #feffd9);
-  background-size: 600% 600%;
+/*
+https://images.wallpapersden.com/image/download/bokeh-blur-city-in-night_62452_3840x2400.jpg
+http://www.pxwall.com/wp-content/uploads/2018/08/Wallpaper%20trees,%20light,%20green,%204K,%20Nature%20223371543.jpg
 
-  -webkit-animation: BWB 9s ease infinite;
-  -moz-animation: BWB 9s ease infinite;
-  animation: BWB 9s ease infinite;
+
+background: linear-gradient(312deg, #292b2d, #4178e8, #feffd9);
+background-size: 600% 600%;
+-webkit-animation: BWB 9s ease infinite;
+-moz-animation: BWB 9s ease infinite;
+animation: BWB 9s ease infinite;
+https://storge.pic2.me/cm/5120x2880/851/597904e7e87e4.jpg
+https://storge.pic2.me/cm/5120x2880/417/580bc4f80f5e6.jpg
+http://clashclansonline.com/wp-content/uploads/2018/05/texture-wallpaper-fresh-wood-texture-4k-hd-abstract-4k-wallpapers-backgrounds-of-texture-wallpaper.jpg
+*/
+
+#main-box-text {
+  background-image: url('https://images.wallpapersden.com/image/download/bokeh-blur-city-in-night_62452_3840x2400.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -211,7 +221,8 @@ h1:hover {
 /* ---------------- SUB-SECTIONS ------------------ */
 
 #home-box, #about-box, #portfolio-box {
-  position: relative;
+  position: relative;=
+  opacity: 0.98;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -319,7 +330,7 @@ p:hover {
 /* ---------------- PORTFOLIO SECTION ------------------ */
 
 #portfolio-box {
-  background-image: url('https://images.pexels.com/photos/593322/pexels-photo-593322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-image: url('https://images3.alphacoders.com/921/thumb-1920-921501.jpg');
 }
 
 .gallery-container {
